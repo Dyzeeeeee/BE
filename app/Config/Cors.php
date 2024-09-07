@@ -24,6 +24,13 @@ class Cors extends BaseConfig
      *      maxAge: int,
      *  }
      */
+
+    public $methods = ['GET', 'POST', 'PUT', 'DELETE'];
+    public $headers = 'Content-Type, Authorization';
+    public $credentials = false;
+    public $origin = '*';
+    public $exposeHeaders = ['Content-Length', 'X-Known-Content-Length'];
+
     public array $default = [
         /**
          * Origins for the `Access-Control-Allow-Origin` header.
