@@ -9,15 +9,25 @@ class TrySeeder extends Seeder
     public function run()
     {
         $data = [
-            'title' => 'Example Title',
-            'description' => 'Example description',
+            [
+                'title' => 'Example Title 1',
+                'description' => 'Example description 1',
+            ],
+            [
+                'title' => 'Example Title 2',
+                'description' => 'Example description 2',
+            ],
+            [
+                'title' => 'Example Title 3',
+                'description' => 'Example description 3',
+            ],
+            [
+                'title' => 'Example Title 4',
+                'description' => 'Example description 4',
+            ],
         ];
 
-        // Simple Queries
-        $this->db->table('try')->insert($data);
-
-        // Using Query Builder
-        // $this->db->table('try')->insertBatch([$data]);
+        // Using Query Builder's insertBatch method to insert multiple rows at once
+        $this->db->table('try')->insertBatch($data);
     }
-
 }

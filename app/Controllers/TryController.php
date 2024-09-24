@@ -20,8 +20,31 @@ class TryController extends ResourceController
     public function getData()
     {
         $try = new TryModel();
-        $data = $try->findAll();  // Retrieve all records from the model's associated table
+        $data = $try->findAll();
+        return $this->respond($data);
+    }
 
-        return $this->respond($data);  // Return the data as JSON response
+    public function createData()
+    {
+        $json = $this->request->getJSON();
+        $try = new TryModel();
+
+        // Extract specific data fields
+        $data = [
+            'title' => $json->title // Ensure that only the title field is used
+        ];
+
+        if ($try->insert($data)) {
+            $response = [
+                'status' => 201,
+                'error' => null,
+                'messages' => [
+                    'success' => 'Data added successfully'
+                ]
+            ];
+            return $this->respondCreated($response);
+        } else {
+            return $this->fail($try->errors());
+        }
     }
 }

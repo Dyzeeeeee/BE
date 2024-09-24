@@ -1,0 +1,1782 @@
+ERROR - 2024-09-17 03:09:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-17 03:09:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-17 03:09:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 03:09:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 03:09:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 03:09:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 03:09:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 03:09:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 03:09:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 03:09:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 03:09:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 03:09:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 03:09:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 03:09:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 03:10:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 03:10:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(72): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 04:52:38 --> mysqli_sql_exception: Table 'aivr.menu_items' doesn't exist in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `order_d...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_d...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_d...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_d...', Array, false)
+#4 E:\laragon\www\BE\app\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(24): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 04:52:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aivr.menu_items' doesn't exist
+[Method: GET, Route: get-order-details/24]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 2 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\OrderDetailsController.php(24): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:52:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aivr.menu_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 4 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\OrderDetailsController.php(24): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:52:38 --> [Caused by] mysqli_sql_exception: Table 'aivr.menu_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 5 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\OrderDetailsController.php(24): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 04:53:09 --> mysqli_sql_exception: Table 'aivr.menu_items' doesn't exist in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `order_d...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_d...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_d...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_d...', Array, false)
+#4 E:\laragon\www\BE\app\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 04:53:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aivr.menu_items' doesn't exist
+[Method: GET, Route: get-order-details/24]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 2 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:53:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aivr.menu_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 4 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:53:09 --> [Caused by] mysqli_sql_exception: Table 'aivr.menu_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 5 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 04:53:10 --> mysqli_sql_exception: Table 'aivr.menu_items' doesn't exist in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `order_d...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_d...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_d...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_d...', Array, false)
+#4 E:\laragon\www\BE\app\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 04:53:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aivr.menu_items' doesn't exist
+[Method: GET, Route: get-order-details/24]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 2 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:53:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aivr.menu_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 4 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:53:10 --> [Caused by] mysqli_sql_exception: Table 'aivr.menu_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 5 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 04:53:11 --> mysqli_sql_exception: Table 'aivr.menu_items' doesn't exist in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `order_d...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_d...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_d...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_d...', Array, false)
+#4 E:\laragon\www\BE\app\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 04:53:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aivr.menu_items' doesn't exist
+[Method: GET, Route: get-order-details/24]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 2 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:53:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aivr.menu_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 4 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:53:11 --> [Caused by] mysqli_sql_exception: Table 'aivr.menu_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = \'24\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `order_details`.*, `menu_items`.`name`, `menu_items`.`description`, `menu_items`.`price`
+FROM `order_details`
+JOIN `menu_items` ON `menu_items`.`id` = `order_details`.`menu_item_id`
+WHERE `order_details`.`order_id` = :order_details.order_id:', [...], false)
+ 5 APPPATH\Models\OrderDetailsModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\OrderDetailsController.php(22): App\Models\OrderDetailsModel->getOrderWithMenuDetails('24')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->getOrderDetails('24')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:58:33 --> TypeError: Cannot access offset of type string on string
+[Method: PUT, Route: update-order-detail/13]
+in APPPATH\Controllers\OrderDetailsController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->updateOrderDetail('13')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:58:36 --> TypeError: Cannot access offset of type string on string
+[Method: PUT, Route: update-order-detail/13]
+in APPPATH\Controllers\OrderDetailsController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->updateOrderDetail('13')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:59:01 --> TypeError: Cannot access offset of type string on string
+[Method: PUT, Route: update-order-detail/11]
+in APPPATH\Controllers\OrderDetailsController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->updateOrderDetail('11')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:59:05 --> TypeError: Cannot access offset of type string on string
+[Method: PUT, Route: update-order-detail/14]
+in APPPATH\Controllers\OrderDetailsController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->updateOrderDetail('14')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:59:46 --> TypeError: Cannot access offset of type string on string
+[Method: PUT, Route: update-order-detail/13]
+in APPPATH\Controllers\OrderDetailsController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->updateOrderDetail('13')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 04:59:52 --> TypeError: Cannot access offset of type string on string
+[Method: PUT, Route: update-order-detail/15]
+in APPPATH\Controllers\OrderDetailsController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->updateOrderDetail('15')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:05:19 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 68.
+ 1 APPPATH\Controllers\OrderDetailsController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:05:26 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 68.
+ 1 APPPATH\Controllers\OrderDetailsController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:05:32 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 68.
+ 1 APPPATH\Controllers\OrderDetailsController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:05:55 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 68.
+ 1 APPPATH\Controllers\OrderDetailsController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:06:38 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:06 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:07 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:07 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:08 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:08 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:09 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:09 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:09 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 05:52:10 --> ErrorException: Undefined array key "price"
+[Method: POST, Route: add-or-update-order-detail]
+in APPPATH\Controllers\OrderDetailsController.php on line 52.
+ 1 APPPATH\Controllers\OrderDetailsController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'E:\\laragon\\www\\BE\\app\\Controllers\\OrderDetailsController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 11:22:31 --> mysqli_sql_exception: Column 'order_id' cannot be null in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 11:22:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'order_id' cannot be null
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 11:22:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'order_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'6\', 1, \'155.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'6\', 1, \'155.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 11:22:31 --> [Caused by] mysqli_sql_exception: Column 'order_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'6\', 1, \'155.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'6\', 1, \'155.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'6\', 1, \'155.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 11:23:04 --> mysqli_sql_exception: Column 'order_id' cannot be null in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 11:23:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'order_id' cannot be null
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 11:23:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'order_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'9\', 1, \'130.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'9\', 1, \'130.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 11:23:04 --> [Caused by] mysqli_sql_exception: Column 'order_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'9\', 1, \'130.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'9\', 1, \'130.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'9\', 1, \'130.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 11:24:48 --> mysqli_sql_exception: Column 'order_id' cannot be null in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 11:24:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'order_id' cannot be null
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 11:24:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'order_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'3\', 1, \'85.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'3\', 1, \'85.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 11:24:48 --> [Caused by] mysqli_sql_exception: Column 'order_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'3\', 1, \'85.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'3\', 1, \'85.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'3\', 1, \'85.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 12:55:19 --> mysqli_sql_exception: Unknown column 'menu_item.name' in 'field list' in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `orders`...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\laragon\www\BE\app\Models\OrderModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 E:\laragon\www\BE\app\Controllers\OrderController.php(17): App\Models\OrderModel->getOrdersWithDetails()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderController->getOrders()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 12:55:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'menu_item.name' in 'field list'
+[Method: GET, Route: get-orders]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OrderModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\OrderController.php(17): App\Models\OrderModel->getOrdersWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderController->getOrders()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 12:55:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'menu_item.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OrderModel.php(21): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\OrderController.php(17): App\Models\OrderModel->getOrdersWithDetails()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderController->getOrders()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 12:55:19 --> [Caused by] mysqli_sql_exception: Unknown column 'menu_item.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OrderModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\OrderController.php(17): App\Models\OrderModel->getOrdersWithDetails()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderController->getOrders()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 12:55:25 --> mysqli_sql_exception: Unknown column 'menu_item.name' in 'field list' in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `orders`...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\laragon\www\BE\app\Models\OrderModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 E:\laragon\www\BE\app\Controllers\OrderController.php(17): App\Models\OrderModel->getOrdersWithDetails()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderController->getOrders()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 12:55:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'menu_item.name' in 'field list'
+[Method: GET, Route: get-orders]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OrderModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\OrderController.php(17): App\Models\OrderModel->getOrdersWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderController->getOrders()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 12:55:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'menu_item.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OrderModel.php(21): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\OrderController.php(17): App\Models\OrderModel->getOrdersWithDetails()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderController->getOrders()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 12:55:25 --> [Caused by] mysqli_sql_exception: Unknown column 'menu_item.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `menu_item`.`name` as `menu_name`, `menu_item`.`price` as `menu_price`, `order_details`.`quantity`, `order_details`.`subtotal`
+FROM `orders`
+LEFT JOIN `order_details` ON `order_details`.`order_id` = `orders`.`id`
+LEFT JOIN `menu` ON `menu`.`id` = `order_details`.`menu_item_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OrderModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\OrderController.php(17): App\Models\OrderModel->getOrdersWithDetails()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderController->getOrders()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 15:08:06 --> mysqli_sql_exception: Column 'session_id' cannot be NOT NULL: needed in a foreign key constraint 'orders_session_id_foreign' SET NULL in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `o...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 E:\laragon\www\BE\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 E:\laragon\www\BE\app\Database\Migrations\2024-09-16-032141_CreateOrdersTable.php(69): CodeIgniter\Database\Forge->createTable('orders')
+#5 E:\laragon\www\BE\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateOrdersTable->up()
+#6 E:\laragon\www\BE\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\laragon\www\BE\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\laragon\www\BE\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\laragon\www\BE\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\laragon\www\BE\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 E:\laragon\www\BE\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\laragon\www\BE\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-17 15:09:12 --> mysqli_sql_exception: Failed to open the referenced table 'sessions' in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `o...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 E:\laragon\www\BE\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 E:\laragon\www\BE\app\Database\Migrations\2024-09-16-032141_CreateOrdersTable.php(69): CodeIgniter\Database\Forge->createTable('orders')
+#5 E:\laragon\www\BE\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateOrdersTable->up()
+#6 E:\laragon\www\BE\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\laragon\www\BE\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\laragon\www\BE\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\laragon\www\BE\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\laragon\www\BE\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 E:\laragon\www\BE\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\laragon\www\BE\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-17 15:09:18 --> mysqli_sql_exception: Failed to open the referenced table 'sessions' in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `o...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 E:\laragon\www\BE\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 E:\laragon\www\BE\app\Database\Migrations\2024-09-16-032141_CreateOrdersTable.php(69): CodeIgniter\Database\Forge->createTable('orders')
+#5 E:\laragon\www\BE\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateOrdersTable->up()
+#6 E:\laragon\www\BE\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\laragon\www\BE\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\laragon\www\BE\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\laragon\www\BE\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\laragon\www\BE\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 E:\laragon\www\BE\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\laragon\www\BE\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-17 15:10:08 --> mysqli_sql_exception: Invalid default value for 'order_date' in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `o...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 E:\laragon\www\BE\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 E:\laragon\www\BE\app\Database\Migrations\2024-09-16-034141_CreateOrdersTable.php(69): CodeIgniter\Database\Forge->createTable('orders')
+#5 E:\laragon\www\BE\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateOrdersTable->up()
+#6 E:\laragon\www\BE\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\laragon\www\BE\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\laragon\www\BE\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\laragon\www\BE\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\laragon\www\BE\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 E:\laragon\www\BE\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\laragon\www\BE\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-09-17 15:12:16 --> mysqli_sql_exception: Table 'customers' already exists in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `c...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 E:\laragon\www\BE\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 E:\laragon\www\BE\app\Database\Migrations\2024-09-17-150741_CreateCustomersTable.php(50): CodeIgniter\Database\Forge->createTable('customers')
+#5 E:\laragon\www\BE\system\Database\MigrationRunner.php(867): App\Database\Migrations\CreateCustomersTable->up()
+#6 E:\laragon\www\BE\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\laragon\www\BE\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\laragon\www\BE\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\laragon\www\BE\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\laragon\www\BE\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 E:\laragon\www\BE\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\laragon\www\BE\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-17 15:12:37 --> ErrorException: Cannot declare class App\Database\Migrations\CreateCustomersTable, because the name is already in use
+[Method: CLI, Route: migrate]
+in APPPATH\Database\Migrations\2024-09-17-150741_CreateCustomersTable.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-09-17 15:31:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 15:31:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:31:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:31:51 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 15:31:53 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 15:31:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:31:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:31:53 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'6\', 1, \'155.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 15:31:54 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 15:31:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:31:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:31:54 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 15:31:54 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 15:31:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:31:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'2\', 1, \'70.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'2\', 1, \'70.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:31:54 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'2\', 1, \'70.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'2\', 1, \'70.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'2\', 1, \'70.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 15:32:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 15:32:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:32:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'25\', 1, \'900.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'25\', 1, \'900.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:32:01 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'25\', 1, \'900.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'25\', 1, \'900.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'25\', 1, \'900.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 15:32:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 15:32:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:32:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'27\', 1, \'2800.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'27\', 1, \'2800.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:32:10 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'27\', 1, \'2800.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'27\', 1, \'2800.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'27\', 1, \'2800.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-17 15:32:53 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-17 15:32:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:32:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 15:32:53 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`aivr`.`order_details`, CONSTRAINT `order_details_order_id_foreign` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (\'63\', \'3\', 1, \'85.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

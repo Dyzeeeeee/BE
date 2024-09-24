@@ -40,8 +40,12 @@ class Autoload extends AutoloadConfig
      * @var array<string, list<string>|string>
      */
     public $psr4 = [
-        APP_NAMESPACE => APPPATH,
+        'Config' => APPPATH . 'Config',
+        APP_NAMESPACE => APPPATH,                // For custom app namespace
+        'App' => APPPATH,
     ];
+
+    public $libraries = ['database']; // Autoload database library
 
     /**
      * -------------------------------------------------------------------
