@@ -1,0 +1,226 @@
+ERROR - 2024-09-27 10:28:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(85): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(85): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-09-27 10:28:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\laragon\www\BE\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 E:\laragon\www\BE\app\Controllers\NotifController.php(33): CodeIgniter\BaseModel->save(Array)
+#9 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\NotifController->saveToken()
+#10 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotifController))
+#11 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#5 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#6 E:\laragon\www\BE\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#7 E:\laragon\www\BE\app\Controllers\NotifController.php(33): CodeIgniter\BaseModel->save(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\NotifController->saveToken()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotifController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-27 10:28:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(85): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 10:28:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: save-token]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tokens` (`token`) VALUES (:token:)', [...], false)
+ 3 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH\Controllers\NotifController.php(33): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NotifController->saveToken()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotifController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-27 10:28:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aivr', 3306, '', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\laragon\www\BE\app\Controllers\AuthController.php(85): CodeIgniter\BaseModel->first()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#8 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\laragon\www\BE\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\laragon\www\BE\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\laragon\www\BE\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 E:\laragon\www\BE\app\Controllers\AuthController.php(85): CodeIgniter\BaseModel->first()
+#6 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\AuthController->login()
+#7 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-27 10:28:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(85): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 10:28:32 --> InvalidArgumentException: key must be a string when using hmac
+[Method: POST, Route: login]
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 249.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(219): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3Mjc0MzI5MTEsImV4cCI6MTcyNzQzNjUxMSwic3ViIjoiMSIsImVtYWlsIjoiamRtYWxhbHVhbjJAZ21haWwuY29tIn0', false, 'HS256')
+ 2 APPPATH\Controllers\AuthController.php(108): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-27 11:25:04 --> mysqli_sql_exception: Column 'order_id' cannot be null in E:\laragon\www\BE\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\laragon\www\BE\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\laragon\www\BE\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\laragon\www\BE\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\laragon\www\BE\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\laragon\www\BE\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\laragon\www\BE\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\laragon\www\BE\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\laragon\www\BE\app\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert(Array)
+#8 E:\laragon\www\BE\system\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+#9 E:\laragon\www\BE\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+#10 E:\laragon\www\BE\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\laragon\www\BE\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\laragon\www\BE\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\laragon\www\BE\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-27 11:25:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'order_id' cannot be null
+[Method: POST, Route: add-or-update-order-detail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:25:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'order_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'5\', 1, 1375)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'5\', 1, 1375)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 11:25:04 --> [Caused by] mysqli_sql_exception: Column 'order_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'5\', 1, 1375)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'5\', 1, 1375)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (NULL, \'5\', 1, 1375)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_details` (`order_id`, `menu_item_id`, `quantity`, `subtotal`) VALUES (:order_id:, :menu_item_id:, :quantity:, :subtotal:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OrderDetailsController.php(77): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderDetailsController->addOrUpdateOrderDetail()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderDetailsController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

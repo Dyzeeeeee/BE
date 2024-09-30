@@ -26,13 +26,20 @@ $routes->put('/update-session/(:segment)', 'SessionController::updateSession/$1'
 $routes->get('/get-categories', 'CategoryController::getCategories');
 
 
+
 $routes->get('/get-menu', 'MenuController::getMenu');
+
+
+$routes->get('/get-food-stocks', 'FoodStockController::getFoodStock');
+
 
 $routes->get('/get-orders/(:segment)', 'OrderController::getOrdersBySession/$1');
 $routes->get('/get-orders', 'OrderController::getOrders');
 $routes->post('/add-order', 'OrderController::addOrder');
 $routes->put('/update-order/(:segment)', 'OrderController::updateOrder/$1');
 $routes->delete('/delete-order/(:segment)', 'OrderController::deleteOrder/$1');
+$routes->get('/get-latest-order', 'OrderController::getLatestOrder');
+
 
 // $routes->post('/add-online-order', 'OnlineOrderController::addOrder');
 $routes->post('/create-online-order', 'OnlineOrderController::startOnlineOrder');

@@ -64,7 +64,7 @@ class CreateOrdersTable extends Migration
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addForeignKey('customer_id', 'customers', 'id', 'CASCADE', 'SET NULL');
+        $this->forge->addForeignKey('customer_id', 'users', 'id', 'CASCADE', 'SET NULL');
         $this->forge->addForeignKey('session_id', 'sessions', 'id', 'CASCADE', 'CASCADE'); // Add foreign key for session_id
         $this->forge->createTable('orders');
     }

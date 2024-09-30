@@ -8,9 +8,11 @@ use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\HTTP\ResponseInterface;
 
 class OnlineOrderController extends ResourceController
-{    protected $db;
+{
+    protected $db;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->db = \Config\Database::connect(); // Explicitly load database
     }
 
@@ -76,6 +78,10 @@ class OnlineOrderController extends ResourceController
             $updateData['total_price'] = $data['total_price']; // Validate this if there are constraints on the price
         }
 
+        if (isset($data['service'])) {
+            $updateData['service'] = $data['service']; // Validate this if there are constraints on the price
+        }
+
         // Check if there is any data to update
         if (empty($updateData)) {
             return $this->fail('No valid data provided for update.', ResponseInterface::HTTP_BAD_REQUEST);
@@ -91,69 +97,75 @@ class OnlineOrderController extends ResourceController
 
 
     public function confirmOrder($qrcode)
-{
-    $onlineOrderModel = new OnlineOrderModel();
-    $detailsModel = new OnlineOrderDetailsModel();
-    $orderModel = new OrderModel();
-    $orderDetailsModel = new OrderDetailsModel();
+    {
+        $onlineOrderModel = new OnlineOrderModel();
+        $detailsModel = new OnlineOrderDetailsModel();
+        $orderModel = new OrderModel();
+        $orderDetailsModel = new OrderDetailsModel();
 
-    // Check if the order exists with the given QR code
-    $onlineOrder = $onlineOrderModel->where('qrcode', $qrcode)->first();
-    if (!$onlineOrder) {
-        return $this->failNotFound('Order not found with provided QR code.');
-    }
+        // Check if the order exists with the given QR code
+        $onlineOrder = $onlineOrderModel->where('qrcode', $qrcode)->first();
+        if (!$onlineOrder) {
+            return $this->failNotFound('Order not found with provided QR code.');
+        }
 
-    // Assume we are setting the status to 'confirmed'
-    if ($onlineOrder['confirmed']) {
-        return $this->fail('Order is already confirmed.', ResponseInterface::HTTP_BAD_REQUEST);
-    }
+        // Assume we are setting the status to 'confirmed'
+        if ($onlineOrder['confirmed']) {
+            return $this->fail('Order is already confirmed.', ResponseInterface::HTTP_BAD_REQUEST);
+        }
 
-    $onlineOrderDetails = $detailsModel->where('online_order_id', $onlineOrder['id'])->findAll();
+        $onlineOrderDetails = $detailsModel->where('online_order_id', $onlineOrder['id'])->findAll();
 
-    // Retrieve session_id from request, assuming it's in the JSON payload
-    $jsonData = $this->request->getJSON();
-    $session_id = $jsonData->session_id ?? null; // Use null coalescing operator to handle cases where session_id is not provided
+        // Retrieve session_id from request, assuming it's in the JSON payload
+        $jsonData = $this->request->getJSON();
+        $session_id = $jsonData->session_id ?? null; // Use null coalescing operator to handle cases where session_id is not provided
+        // $service = $jsonData->service ?? null; // Use null coalescing operator to handle cases where session_id is not provided
 
-    // Validate session_id if necessary, e.g., check if it's not null or perform additional checks
+        // Validate session_id if necessary, e.g., check if it's not null or perform additional checks
 
-    // Start transaction
-    $this->db->transStart();
+        // Start transaction
+        $this->db->transStart();
 
-    // Create a new order including the session_id
-    $newOrderId = $orderModel->insert([
-        'session_id' => $session_id,
-        'total_price' => array_sum(array_column($onlineOrderDetails, 'subtotal')),
-        // 'status' => 'confirmed'
-    ]);
-
-    // Check if new order creation was successful
-    if (!$newOrderId) {
-        $this->db->transRollback();
-        return $this->failServerError('Failed to create a new order.');
-    }
-
-    // Add details to the new order
-    foreach ($onlineOrderDetails as $detail) {
-        $orderDetailsModel->insert([
-            'order_id' => $newOrderId,
-            'menu_item_id' => $detail['menu_item_id'],
-            'quantity' => $detail['quantity'],
-            'subtotal' => $detail['subtotal']
+        // Create a new order including the session_id
+        $newOrderId = $orderModel->insert([
+            'session_id' => $session_id,
+            'service' => $onlineOrder['service'],
+            'total_price' => array_sum(array_column($onlineOrderDetails, 'subtotal')),
+            'order_date' => date('Y-m-d H:i:s', time() + 8 * 3600),
+            'customer_id' => $onlineOrder['customer_id'],
         ]);
+
+        // Check if new order creation was successful
+        if (!$newOrderId) {
+            $this->db->transRollback();
+            return $this->failServerError('Failed to create a new order.');
+        }
+
+        // Add details to the new order
+        foreach ($onlineOrderDetails as $detail) {
+            $orderDetailsModel->insert([
+                'order_id' => $newOrderId,
+                'menu_item_id' => $detail['menu_item_id'],
+                'quantity' => $detail['quantity'],
+                'subtotal' => $detail['subtotal']
+            ]);
+        }
+
+        // Update the online order to confirmed
+        $onlineOrderModel->update($onlineOrder['id'], ['confirmed' => 1]);
+
+        // Commit transaction
+        $this->db->transComplete();
+
+        if ($this->db->transStatus() === false) {
+            return $this->failServerError('Failed to confirm the order. Please try again.');
+        } else {
+            return $this->respondUpdated([
+                'message' => 'Order confirmed successfully',
+                'newOrderId' => $newOrderId,
+                'service' => $onlineOrder['service']
+            ]);        }
     }
-
-    // Update the online order to confirmed
-    $onlineOrderModel->update($onlineOrder['id'], ['confirmed' => 1]);
-
-    // Commit transaction
-    $this->db->transComplete();
-
-    if ($this->db->transStatus() === false) {
-        return $this->failServerError('Failed to confirm the order. Please try again.');
-    } else {
-        return $this->respondUpdated(['message' => 'Order confirmed successfully', 'newOrderId' => $newOrderId]);
-    }
-}
 
 
 
